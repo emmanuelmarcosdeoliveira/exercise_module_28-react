@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+  margin-block: 2rem;
+  width: 280px;
+  height: 160px;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.input {
+  padding: 0.25rem;
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 3.5rem;
+  font-weight: 500;
+}
+.legend {
+  padding: 5px;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

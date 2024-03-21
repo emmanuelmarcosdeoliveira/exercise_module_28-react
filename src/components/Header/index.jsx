@@ -18,10 +18,12 @@ const Header = () => {
             normal quando o resultado do IMC está entre 18.5 e 24.9.
           </strong>
         </p>
+        <img className={styles.img} src="/tabelaimc.png"></img>
+
         <span className={styles.span}>IMPORTANTE!</span>
         <p className={styles.parag}>
           Ao fazer a inclusão dos valores dentro dos campos de altura e peso
-          vamos colocar ( . ) "ponto" ao invés de virgula.
+          vamos colocar ( . )<strong> "ponto" </strong>ao invés de virgula.
         </p>
       </div>
     </>

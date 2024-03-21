@@ -9,3 +9,13 @@
   width: auto;
   margin: 0 auto;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+}

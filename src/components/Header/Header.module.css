@@ -19,3 +19,9 @@
 .parag:last-child {
   font-style: italic;
 }
+.img {
+  display: block;
+  min-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+}

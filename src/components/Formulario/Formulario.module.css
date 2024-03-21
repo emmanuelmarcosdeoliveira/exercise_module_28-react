@@ -5,9 +5,11 @@
 
 .field {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-block: 2rem;
-  width: 280px;
+  width: 340px;
   height: 160px;
   padding: 2rem;
   border-radius: 1rem;
@@ -37,4 +39,11 @@
     flex-direction: column;
     align-items: center;
   }
+}
+.resultado {
+  display: flex;
+}
+b {
+  font-size: 1rem;
+  color: red;
 }
